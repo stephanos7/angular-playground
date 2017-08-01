@@ -6,13 +6,15 @@ import { DataBindingComponent } from './components/data-binding/data-binding.com
 import { DataRenderComponent } from './components/data-render/data-render.component';
 import { CKEditorModule } from 'ng2-ckeditor';
 import { NgeditorComponent } from './components/ngeditor/ngeditor.component';
+import { QuillComponent } from './components/quill/quill.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DataBindingComponent,
     DataRenderComponent,
-    NgeditorComponent
+    NgeditorComponent,
+    QuillComponent
     
   ],
   imports: [
