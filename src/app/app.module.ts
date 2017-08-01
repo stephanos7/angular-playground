@@ -4,16 +4,21 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { DataBindingComponent } from './components/data-binding/data-binding.component';
 import { DataRenderComponent } from './components/data-render/data-render.component';
+import { CKEditorModule } from 'ng2-ckeditor';
+import { NgeditorComponent } from './components/ngeditor/ngeditor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DataBindingComponent,
-    DataRenderComponent
+    DataRenderComponent,
+    NgeditorComponent
+    
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    CKEditorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
